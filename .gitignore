@@ -277,6 +277,8 @@ $RECYCLE.BIN/
 #################################################################################
 placeholder.txt
 *.log*
+/Deduplication
+/OpenIdAuth
 /Workplace/Files/cs
 /UIv2/Files
 /SspWorkplace/Files/cs
