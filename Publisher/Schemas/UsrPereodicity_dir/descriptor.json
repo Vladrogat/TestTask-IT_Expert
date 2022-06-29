@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "5b9fe629-8eaf-45b2-8bd3-7a68357540c6",
+    "Name": "UsrPereodicity_dir",
+    "ModifiedOnUtc": "\/Date(1656513545000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Периодичность издания"
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "7941e921-b13d-425b-aa3c-b2195bb2d76a",
+    "Name": "UsrPublisher1MiniPage",
+    "ModifiedOnUtc": "\/Date(1656521811000)\/",
+    "Parent": {
+      "UId": "8e06a577-08e4-424e-bd89-798a34e1b928",
+      "Name": "BaseMiniPage"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "UsrPublisher1MiniPage"
+  }
+}

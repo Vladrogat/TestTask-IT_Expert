@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "413f75e4-cd99-4952-98c9-1a51a906774b",
+    "Name": "UsrIssues",
+    "ModifiedOnUtc": "\/Date(1656517821000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Выпуски"
+  }
+}

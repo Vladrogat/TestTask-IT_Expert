@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "31b902f8-229c-457d-acf7-8093cd17d334",
+    "Name": "UsrSchema4901c024Detail",
+    "ModifiedOnUtc": "\/Date(1656518266000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема детали: \"Выпуски\""
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "ad15bd7b-52ef-45fd-aee6-893999c23e9d",
+    "Name": "UsrPublisherInTag",
+    "ModifiedOnUtc": "\/Date(1656513562000)\/",
+    "Parent": {
+      "UId": "5894a2b0-51d5-419a-82bb-238674634270",
+      "Name": "BaseEntityInTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Тег в записи раздела Периодические издания"
+  }
+}
