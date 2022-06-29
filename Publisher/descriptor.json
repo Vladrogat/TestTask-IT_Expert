@@ -1,0 +1,22 @@
+﻿{
+  "Descriptor": {
+    "UId": "a7ebc213-4307-e989-cfdb-5e83c8d1ad14",
+    "Name": "Publisher",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1656511952000)\/",
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/Publisher.csproj",
+    "DependsOn": [
+      {
+        "UId": "99707b27-fb9d-4a8d-a9ce-313a68e7423f",
+        "PackageVersion": "7.8.0",
+        "Name": "ServiceEnterpriseSoftkey"
+      },
+      {
+        "UId": "cbc7d8fb-0ab5-42a1-bc8c-60da507c44c4",
+        "PackageVersion": "7.8.0",
+        "Name": "ServiceEnterpriseDefSettings"
+      }
+    ]
+  }
+}
