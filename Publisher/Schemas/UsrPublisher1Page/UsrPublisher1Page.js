@@ -4,7 +4,7 @@ define("UsrPublisher1Page", [], function() {
 		attributes: {},
 		modules: /**SCHEMA_MODULES*/{}/**SCHEMA_MODULES*/,
 		details: /**SCHEMA_DETAILS*/{
-			"UsrSchema4901c024Detailf89d75fd": {
+			"UsrIssues": {
 				"schemaName": "UsrSchema4901c024Detail",
 				"entitySchemaName": "UsrEntityIssues",
 				"filter": {
@@ -14,21 +14,77 @@ define("UsrPublisher1Page", [], function() {
 			}
 		}/**SCHEMA_DETAILS*/,
 		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
-		methods: {},
+		
+		methods: {
+			asyncValidate: function(callback, scope) {
+				this.callParent([function(response) {
+					if (!this.validateResponse(response)) {
+						return;
+					}
+					Terrasoft.chain(
+						function(next) {
+							this.validatePublishingHouse(function(response) {
+								if (this.validateResponse(response)) {
+									next();
+								}
+							}, this);
+						},
+						function(next) {
+							callback.call(scope, response);
+							next();
+						}, this);
+				}, this]);
+			},
+			validatePublishingHouse: function(callback, scope) {
+				Terrasoft.SysSettings.querySysSettingsItem("MaxCountActiveEveryDayPublish", function(maxCount) {
+					if(!this.changedValues) {
+						callback.call(scope, { success: true});
+					}
+					var pereodicity = "";
+					var active;
+					var message = "Производственные мощности ограничены и допускается не более " + maxCount + " изданий";
+					if (this.get("UsrPereodicity")) {
+						pereodicity = this.get("UsrPereodicity").displayValue;
+					}
+					//if (this.get("UsrActive")) {
+						active = this.get("UsrActive");
+					//}
+					//console.log( message);
+					var esq = Ext.create("Terrasoft.EntitySchemaQuery", { rootSchemaName: "UsrPublisher" });
+					esq.addColumn("UsrPereodicity.Name");
+					esq.addColumn("UsrActive");
+					esq.filters.addItem(esq.createColumnFilterWithParameter(Terrasoft.ComparisonType.EQUAL, 
+						"UsrPereodicity.Name", "Ежедневно"));
+					esq.filters.addItem(esq.createColumnFilterWithParameter(Terrasoft.ComparisonType.EQUAL, 
+						"UsrActive", true));
+					esq.getEntityCollection(function(response) {
+						var result = { success: true};
+						var count = response.collection.getCount();
+						console.log(count);
+						if (this.changedValues && pereodicity === "Ежедневно" && active && count >= maxCount){
+							result.message = message;
+							result.success = false;
+						}
+						callback.call(scope || this, result);
+					}, this);
+				}, this);
+			}
+		},
+		
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
 		diff: /**SCHEMA_DIFF*/[
 			{
 				"operation": "insert",
-				"name": "INTEGERadd9b8e0-0a4a-40da-9ee2-f4d229546774",
+				"name": "UsrNamead1818d8-cbae-4bbd-ad2d-6595a49b5407",
 				"values": {
 					"layout": {
 						"colSpan": 24,
 						"rowSpan": 1,
 						"column": 0,
-						"row": 0,
+						"row": 1,
 						"layoutName": "ProfileContainer"
 					},
-					"bindTo": "UsrCode",
+					"bindTo": "UsrName",
 					"enabled": true
 				},
 				"parentName": "ProfileContainer",
@@ -111,16 +167,16 @@ define("UsrPublisher1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "UsrNamead1818d8-cbae-4bbd-ad2d-6595a49b5407",
+				"name": "UsrStr0ef9b6cf-fd5e-4f51-9feb-0a43632d7a57",
 				"values": {
 					"layout": {
 						"colSpan": 24,
 						"rowSpan": 1,
 						"column": 0,
-						"row": 1,
+						"row": 0,
 						"layoutName": "ProfileContainer"
 					},
-					"bindTo": "UsrName",
+					"bindTo": "UsrCode",
 					"enabled": true
 				},
 				"parentName": "ProfileContainer",
@@ -133,7 +189,7 @@ define("UsrPublisher1Page", [], function() {
 				"values": {
 					"layout": {
 						"colSpan": 22,
-						"rowSpan": 3,
+						"rowSpan": 4,
 						"column": 0,
 						"row": 0,
 						"layoutName": "Header"
@@ -162,7 +218,7 @@ define("UsrPublisher1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "UsrSchema4901c024Detailf89d75fd",
+				"name": "UsrIssues",
 				"values": {
 					"itemType": 2,
 					"markerValue": "added-detail"
