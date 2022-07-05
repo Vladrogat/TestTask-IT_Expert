@@ -76,6 +76,25 @@ define("UsrUsrEntityIssues7812a21aPage", [], function() {
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
 				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "LOOKUPcc09c4cd-c6d4-4323-b3b7-5c71f6a29d7c",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 4,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "UsrPublish",
+					"enabled": true,
+					"contentType": 5
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 4
 			}
 		]/**SCHEMA_DIFF*/
 	};
