@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.AddDataUserTaskCreate.Caption" Value="Добавление детали" />
+			<Item Name="BaseElements.AddDataUserTaskCreate.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.AddDataUserTaskCreate.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.AddDataUserTaskCreate.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
+			<Item Name="BaseElements.AddDataUserTaskCreate.Parameters.EntitySchemaId.Caption" Value="Object" />
+			<Item Name="BaseElements.AddDataUserTaskCreate.Parameters.FilterEntitySchemaId.Caption" Value="Object" />
+			<Item Name="BaseElements.AddDataUserTaskCreate.Parameters.RecordAddMode.Caption" Value="Record adding mode" />
+			<Item Name="BaseElements.AddDataUserTaskCreate.Parameters.RecordDefValues.Caption" Value="Set column values" />
+			<Item Name="BaseElements.AddDataUserTaskCreate.Parameters.RecordDefValues.DisplayValue" Value="{&quot;$type&quot;:&quot;Terrasoft.Core.Process.LocalizableParameterValuesList, Terrasoft.Core&quot;,&quot;$values&quot;:[{&quot;ItemUId&quot;:&quot;0c8d5b57-031a-4960-85c3-4eece9fe7972&quot;,&quot;columnMetaPath&quot;:{&quot;value&quot;:&quot;d73015e8-df23-486f-95f5-4af069d391de&quot;},&quot;schemaUId&quot;:{&quot;value&quot;:&quot;4f118a85-32fc-412c-99bf-ad418a01ce77&quot;},&quot;value&quot;:{&quot;value&quot;:&quot;[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{0c1f929e-feec-4085-8dcb-6702242613bd}]#]&quot;},&quot;displayValue&quot;:{&quot;value&quot;:&quot;[#Дата выпуска#]&quot;},&quot;parameterValue&quot;:{&quot;value&quot;:&quot;{\&quot;$type\&quot;:\&quot;Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\&quot;,\&quot;Source\&quot;:3,\&quot;DisplayValue\&quot;:\&quot;\&quot;,\&quot;Value\&quot;:\&quot;\&quot;,\&quot;MetaPath\&quot;:null,\&quot;MetaDataValue\&quot;:null,\&quot;ModifiedInSchemaUId\&quot;:\&quot;00000000-0000-0000-0000-000000000000\&quot;,\&quot;SchemaUId\&quot;:\&quot;00000000-0000-0000-0000-000000000000\&quot;,\&quot;SchemaManagerName\&quot;:\&quot;\&quot;,\&quot;DataValueTypeUId\&quot;:\&quot;603d4960-a1a2-45e9-b232-206a54421b01\&quot;,\&quot;ReferenceSchemaUId\&quot;:\&quot;00000000-0000-0000-0000-000000000000\&quot;,\&quot;ResourceItemName\&quot;:null}&quot;}},{&quot;ItemUId&quot;:&quot;d83f3986-e090-40bf-9c17-519d4ad334b9&quot;,&quot;columnMetaPath&quot;:{&quot;value&quot;:&quot;7f6a56ce-de55-488e-8a80-5947417e16b2&quot;},&quot;schemaUId&quot;:{&quot;value&quot;:&quot;4f118a85-32fc-412c-99bf-ad418a01ce77&quot;},&quot;value&quot;:{&quot;value&quot;:&quot;[#[IsOwnerSchema:false].[IsSchema:false].[Parameter:{d42c0bad-0c62-43a2-9641-fddbff687d5f}]#]&quot;},&quot;displayValue&quot;:{&quot;value&quot;:&quot;[#ID Издания#]&quot;},&quot;parameterValue&quot;:{&quot;value&quot;:&quot;{\&quot;$type\&quot;:\&quot;Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\&quot;,\&quot;Source\&quot;:3,\&quot;DisplayValue\&quot;:\&quot;\&quot;,\&quot;Value\&quot;:\&quot;\&quot;,\&quot;MetaPath\&quot;:null,\&quot;MetaDataValue\&quot;:null,\&quot;ModifiedInSchemaUId\&quot;:\&quot;00000000-0000-0000-0000-000000000000\&quot;,\&quot;SchemaUId\&quot;:\&quot;00000000-0000-0000-0000-000000000000\&quot;,\&quot;SchemaManagerName\&quot;:\&quot;\&quot;,\&quot;DataValueTypeUId\&quot;:\&quot;b295071f-7ea9-4e62-8d1a-919bf3732ff2\&quot;,\&quot;ReferenceSchemaUId\&quot;:\&quot;f6d9f8f8-808e-46c1-8af7-eaf06053bbf7\&quot;,\&quot;ResourceItemName\&quot;:null}&quot;}},{&quot;ItemUId&quot;:&quot;1ecb40d6-0bcb-42fc-b99b-6b0e1e8445e5&quot;,&quot;columnMetaPath&quot;:{&quot;value&quot;:&quot;f55348b5-0b5f-4e8a-a873-e2ba4d721838&quot;},&quot;schemaUId&quot;:{&quot;value&quot;:&quot;4f118a85-32fc-412c-99bf-ad418a01ce77&quot;},&quot;value&quot;:{&quot;value&quot;:&quot;[#[IsOwnerSchema:false].[IsSchema:false].[Element:{b15be599-b5a1-4917-9212-1e49f9a9c25c}].[Parameter:{055b7659-2c1c-417a-a790-f61adfb31e7e}].[EntityColumn:{840449be-ca32-4b7b-be1e-a1fffab44596}]#]&quot;},&quot;displayValue&quot;:{&quot;value&quot;:&quot;[#Получить данные издания.Первый элемент результирующей коллекции.Ответственный#]&quot;},&quot;parameterValue&quot;:{&quot;value&quot;:&quot;{\&quot;$type\&quot;:\&quot;Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\&quot;,\&quot;Source\&quot;:3,\&quot;DisplayValue\&quot;:\&quot;\&quot;,\&quot;Value\&quot;:\&quot;\&quot;,\&quot;MetaPath\&quot;:null,\&quot;MetaDataValue\&quot;:null,\&quot;ModifiedInSchemaUId\&quot;:\&quot;00000000-0000-0000-0000-000000000000\&quot;,\&quot;SchemaUId\&quot;:\&quot;00000000-0000-0000-0000-000000000000\&quot;,\&quot;SchemaManagerName\&quot;:\&quot;\&quot;,\&quot;ReferenceSchemaUId\&quot;:\&quot;16be3651-8fe2-4159-8dd0-a803d4683dd3\&quot;,\&quot;ResourceItemName\&quot;:null}&quot;}},{&quot;ItemUId&quot;:&quot;43dc4387-a4cf-4a3e-bda9-9f6a1f2101dd&quot;,&quot;columnMetaPath&quot;:{&quot;value&quot;:&quot;ed7ce88d-1d1a-466f-99c2-585af3c9ccdf&quot;},&quot;schemaUId&quot;:{&quot;value&quot;:&quot;4f118a85-32fc-412c-99bf-ad418a01ce77&quot;},&quot;value&quot;:{&quot;value&quot;:&quot;[#Lookup.197dd6d6-2463-4700-9bab-739001b23d53.97222212-87c6-4e6c-af31-445dda25d584#]&quot;},&quot;displayValue&quot;:{&quot;value&quot;:&quot;[#Справочник.Состояние выпуска.Запланирован.97222212-87c6-4e6c-af31-445dda25d584#]&quot;},&quot;parameterValue&quot;:{&quot;value&quot;:&quot;{\&quot;$type\&quot;:\&quot;Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\&quot;,\&quot;Source\&quot;:3,\&quot;DisplayValue\&quot;:\&quot;\&quot;,\&quot;Value\&quot;:\&quot;\&quot;,\&quot;MetaPath\&quot;:null,\&quot;MetaDataValue\&quot;:null,\&quot;ModifiedInSchemaUId\&quot;:\&quot;00000000-0000-0000-0000-000000000000\&quot;,\&quot;SchemaUId\&quot;:\&quot;00000000-0000-0000-0000-000000000000\&quot;,\&quot;SchemaManagerName\&quot;:\&quot;\&quot;,\&quot;DataValueTypeUId\&quot;:\&quot;b295071f-7ea9-4e62-8d1a-919bf3732ff2\&quot;,\&quot;ReferenceSchemaUId\&quot;:\&quot;197dd6d6-2463-4700-9bab-739001b23d53\&quot;,\&quot;ResourceItemName\&quot;:null}&quot;}},{&quot;ItemUId&quot;:&quot;773c936f-8c8b-4061-adae-2869e8913041&quot;,&quot;columnMetaPath&quot;:{&quot;value&quot;:&quot;f921ab72-d602-4a9d-8dd8-412c01028961&quot;},&quot;schemaUId&quot;:{&quot;value&quot;:&quot;4f118a85-32fc-412c-99bf-ad418a01ce77&quot;},&quot;value&quot;:{&quot;value&quot;:&quot;0&quot;},&quot;displayValue&quot;:{&quot;value&quot;:&quot;0&quot;},&quot;parameterValue&quot;:{&quot;value&quot;:&quot;{\&quot;$type\&quot;:\&quot;Terrasoft.Core.Process.ProcessSchemaParameterValue, Terrasoft.Core\&quot;,\&quot;Source\&quot;:1,\&quot;DisplayValue\&quot;:\&quot;\&quot;,\&quot;Value\&quot;:\&quot;\&quot;,\&quot;MetaPath\&quot;:null,\&quot;MetaDataValue\&quot;:null,\&quot;ModifiedInSchemaUId\&quot;:\&quot;00000000-0000-0000-0000-000000000000\&quot;,\&quot;SchemaUId\&quot;:\&quot;00000000-0000-0000-0000-000000000000\&quot;,\&quot;SchemaManagerName\&quot;:\&quot;\&quot;,\&quot;DataValueTypeUId\&quot;:\&quot;6b6b74e2-820d-490e-a017-2b73d4ccf2b0\&quot;,\&quot;ReferenceSchemaUId\&quot;:\&quot;00000000-0000-0000-0000-000000000000\&quot;,\&quot;ResourceItemName\&quot;:null}&quot;}}]}" />
+			<Item Name="BaseElements.AddDataUserTaskCreate.Parameters.RecordId.Caption" Value="Created record Id" />
+			<Item Name="BaseElements.ConditionalSequenceFlow1.Caption" Value="Завершение" />
+			<Item Name="BaseElements.FormulaTask1.Caption" Value="Итерация" />
+			<Item Name="BaseElements.FormulaTask2.Caption" Value="Изменение даты на сутки" />
+			<Item Name="BaseElements.FormulaTask3.Caption" Value="Изменение даты на неделю" />
+			<Item Name="BaseElements.FormulaTask4.Caption" Value="Изменение даты на месяц" />
+			<Item Name="BaseElements.ReadDataUserTask.Caption" Value="Получить данные издания" />
+			<Item Name="BaseElements.ReadDataUserTask.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
+			<Item Name="BaseElements.ReadDataUserTask.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
+			<Item Name="BaseElements.ReadDataUserTask.Parameters.CanReadUncommitedData.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReadDataUserTask.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReadDataUserTask.Parameters.DataSourceFilters.Caption" Value="Data source of filters" />
+			<Item Name="BaseElements.ReadDataUserTask.Parameters.EntityColumnMetaPathes.Caption" Value="Columns to read" />
+			<Item Name="BaseElements.ReadDataUserTask.Parameters.FunctionType.Caption" Value="Aggregate function type" />
+			<Item Name="BaseElements.ReadDataUserTask.Parameters.FunctionType.DisplayValue" Value="0" />
+			<Item Name="BaseElements.ReadDataUserTask.Parameters.IgnoreDisplayValues.Caption" Value="Do not read displayed values of lookup columns" />
+			<Item Name="BaseElements.ReadDataUserTask.Parameters.NumberOfRecords.Caption" Value="Number of records to read" />
+			<Item Name="BaseElements.ReadDataUserTask.Parameters.NumberOfRecords.DisplayValue" Value="50" />
+			<Item Name="BaseElements.ReadDataUserTask.Parameters.OrderInfo.Caption" Value="Columns order" />
+			<Item Name="BaseElements.ReadDataUserTask.Parameters.OrderInfo.DisplayValue" Value="UsrName:1:1" />
+			<Item Name="BaseElements.ReadDataUserTask.Parameters.ReadSomeTopRecords.Caption" Value="Read first" />
+			<Item Name="BaseElements.ReadDataUserTask.Parameters.ReadSomeTopRecords.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReadDataUserTask.Parameters.ResultCompositeObjectList.Caption" Value="Collection of records" />
+			<Item Name="BaseElements.ReadDataUserTask.Parameters.ResultCount.Caption" Value="Number of records" />
+			<Item Name="BaseElements.ReadDataUserTask.Parameters.ResultDateTimeFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask.Parameters.ResultEntity.Caption" Value="First item of resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask.Parameters.ResultEntityCollection.Caption" Value="Resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask.Parameters.ResultFloatFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
+			<Item Name="BaseElements.ReadDataUserTask.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
+			<Item Name="BaseElements.ReadDataUserTask.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="BaseElements.ReadDataUserTask.Parameters.ResultType.DisplayValue" Value="0" />
+			<Item Name="BaseElements.ScriptTask1.Caption" Value="Добавление сообщения" />
+			<Item Name="BaseElements.SequenceFlow5.Caption" Value="Продолжение процесса" />
+			<Item Name="BaseElements.StartEvent1.Caption" Value="Запуск" />
+			<Item Name="BaseElements.TerminateEvent.Caption" Value="Завершение" />
+			<Item Name="Caption" Value="Создание детали Выпуски" />
+			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
+			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
+			<Item Name="NotificationCaption.Caption" Value="Заголовок экземпляра процесса" />
+			<Item Name="NotificationCaption.DisplayValue" Value="[#Название процесса#]" />
+			<Item Name="Parameters.ProcessSchemaParameterCirculation.Caption" Value="Тираж" />
+			<Item Name="Parameters.ProcessSchemaParameterCount.Caption" Value="Количество" />
+			<Item Name="Parameters.ProcessSchemaParameterCount.DisplayValue" Value="6" />
+			<Item Name="Parameters.ProcessSchemaParameterDate.Caption" Value="Дата выпуска" />
+			<Item Name="Parameters.ProcessSchemaParameterIdPublish.Caption" Value="ID Издания" />
+		</Items>
+	</Group>
+</Resources>

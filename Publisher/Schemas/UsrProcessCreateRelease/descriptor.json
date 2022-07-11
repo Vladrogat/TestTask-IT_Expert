@@ -1,0 +1,9 @@
+﻿{
+  "Descriptor": {
+    "UId": "4a799b95-0f12-42a7-90bc-a3cf2356771e",
+    "Name": "UsrProcessCreateRelease",
+    "ModifiedOnUtc": "\/Date(1657544033000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Создание детали Выпуски"
+  }
+}
