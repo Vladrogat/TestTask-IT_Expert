@@ -6,6 +6,7 @@
 			<Item Name="Columns.UsrCirculation.Caption" Value="Тираж" />
 			<Item Name="Columns.UsrDateIssue.Caption" Value="Дата выпуска" />
 			<Item Name="Columns.UsrOwner.Caption" Value="Ответственный за выпуск" />
+			<Item Name="Columns.UsrPublish.Caption" Value="Справочник 1" />
 			<Item Name="Columns.UsrStatus.Caption" Value="Состояние выпуска" />
 			<Item Name="EventsProcessSchema.Caption" Value="Бизнес-процесс" />
 		</Items>

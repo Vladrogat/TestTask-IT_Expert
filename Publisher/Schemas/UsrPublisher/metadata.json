@@ -27,15 +27,6 @@
 - MetaData.Schema.D2.["3015559e-cbc6-406a-88af-07f7930be832"].E16
 - MetaData.Schema.D2.["3fabd836-6a53-4d8d-9069-6df88d9dae1e"].E16
 + MetaData.Schema.D2 {
-  "UId": "93331711-c6c4-4f37-b342-40525b875dd3",
-  "A2": "UsrNotes",
-  "A3": "f6d9f8f8-808e-46c1-8af7-eaf06053bbf7",
-  "A4": "f6d9f8f8-808e-46c1-8af7-eaf06053bbf7",
-  "A5": "994bd789-a88d-4d30-8de2-a95f384be4c5",
-  "S2": "c0f04627-4620-4bc0-84e5-9419dc8516b1",
-  "E5": false
-}
-+ MetaData.Schema.D2 {
   "UId": "5c26a533-4f27-4f83-8a57-99435cb49007",
   "A2": "UsrPereodicity",
   "A3": "f6d9f8f8-808e-46c1-8af7-eaf06053bbf7",
@@ -48,15 +39,6 @@
   "E20": true,
   "E17": "UsrPereodicityId",
   "E18": "UsrPereodicityName"
-}
-+ MetaData.Schema.D2 {
-  "UId": "af6ff23e-9a8f-4738-b4f7-a29c12c3c399",
-  "A2": "UsrCode",
-  "A3": "f6d9f8f8-808e-46c1-8af7-eaf06053bbf7",
-  "A4": "f6d9f8f8-808e-46c1-8af7-eaf06053bbf7",
-  "A5": "994bd789-a88d-4d30-8de2-a95f384be4c5",
-  "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
-  "E2": 1
 }
 + MetaData.Schema.D2 {
   "UId": "840449be-ca32-4b7b-be1e-a1fffab44596",
@@ -104,7 +86,16 @@
   "S2": "325a73b8-0f47-44a0-8412-7606f78003ac",
   "E2": 1
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","93331711-c6c4-4f37-b342-40525b875dd3","5c26a533-4f27-4f83-8a57-99435cb49007","af6ff23e-9a8f-4738-b4f7-a29c12c3c399","840449be-ca32-4b7b-be1e-a1fffab44596","16d993a7-3cb2-40ec-8209-8c3e495c910f","2f02c1d1-839d-4836-ae28-43e3843f3077","03c7b558-88f9-45ab-b748-92863d719eb7","4a7bdca3-9b7a-46fa-9ab2-f195ea231c83"]
++ MetaData.Schema.D2 {
+  "UId": "fdc03564-86c0-4f0d-bae7-081947e4922a",
+  "A2": "UsrCode",
+  "A3": "f6d9f8f8-808e-46c1-8af7-eaf06053bbf7",
+  "A4": "f6d9f8f8-808e-46c1-8af7-eaf06053bbf7",
+  "A5": "994bd789-a88d-4d30-8de2-a95f384be4c5",
+  "S2": "325a73b8-0f47-44a0-8412-7606f78003ac",
+  "E2": 1
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","5c26a533-4f27-4f83-8a57-99435cb49007","840449be-ca32-4b7b-be1e-a1fffab44596","16d993a7-3cb2-40ec-8209-8c3e495c910f","2f02c1d1-839d-4836-ae28-43e3843f3077","03c7b558-88f9-45ab-b748-92863d719eb7","4a7bdca3-9b7a-46fa-9ab2-f195ea231c83","fdc03564-86c0-4f0d-bae7-081947e4922a"]
 = MetaData.Schema.D20.A2 "UsrPublisherEvents"
 - MetaData.Schema.EG1.BK29
 - MetaData.Schema.EG1.BK30
