@@ -2,8 +2,7 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Выпуски" />
-			<Item Name="LocalizableStrings.Caption.Value" Value="Выпуски" />
+			<Item Name="Caption" Value="ClientMessageBridge" />
 		</Items>
 	</Group>
 </Resources>
