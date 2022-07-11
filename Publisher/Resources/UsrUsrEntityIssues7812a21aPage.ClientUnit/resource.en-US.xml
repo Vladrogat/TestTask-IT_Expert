@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Карточка схемы: &quot;Выпуски&quot;" />
+			<Item Name="LocalizableStrings.CreationReleases.Value" Value="Добавить выпуски" />
 		</Items>
 	</Group>
 </Resources>

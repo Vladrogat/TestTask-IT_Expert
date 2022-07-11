@@ -72,7 +72,20 @@
   "E17": "UsrStatusId",
   "E18": "UsrStatusName"
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","d73015e8-df23-486f-95f5-4af069d391de","f55348b5-0b5f-4e8a-a873-e2ba4d721838","f921ab72-d602-4a9d-8dd8-412c01028961","ed7ce88d-1d1a-466f-99c2-585af3c9ccdf"]
++ MetaData.Schema.D2 {
+  "UId": "7f6a56ce-de55-488e-8a80-5947417e16b2",
+  "A2": "UsrPublish",
+  "A3": "4f118a85-32fc-412c-99bf-ad418a01ce77",
+  "A4": "4f118a85-32fc-412c-99bf-ad418a01ce77",
+  "A5": "994bd789-a88d-4d30-8de2-a95f384be4c5",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "f6d9f8f8-808e-46c1-8af7-eaf06053bbf7",
+  "E2": 1,
+  "E6": true,
+  "E17": "UsrPublishId",
+  "E18": "UsrPublishUsrName"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","d73015e8-df23-486f-95f5-4af069d391de","f55348b5-0b5f-4e8a-a873-e2ba4d721838","f921ab72-d602-4a9d-8dd8-412c01028961","ed7ce88d-1d1a-466f-99c2-585af3c9ccdf","7f6a56ce-de55-488e-8a80-5947417e16b2"]
 = MetaData.Schema.D20.A2 "UsrEntityIssuesEvents"
 - MetaData.Schema.EG1.BK29
 - MetaData.Schema.EG1.BK30
