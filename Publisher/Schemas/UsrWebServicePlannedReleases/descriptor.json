@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "b79b2e8f-6b2e-4966-93bd-84aedc0d0be4",
     "Name": "UsrWebServicePlannedReleases",
-    "ModifiedOnUtc": "\/Date(1657018979000)\/",
+    "ModifiedOnUtc": "\/Date(1657791377000)\/",
     "ManagerName": "SourceCodeSchemaManager",
     "Caption": "Веб сервис получение запланированных выпусков"
   }

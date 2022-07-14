@@ -4,6 +4,7 @@
 		<Items>
 			<Item Name="Caption" Value="Схема детали: &quot;Выпуски&quot;" />
 			<Item Name="LocalizableStrings.Caption.Value" Value="Выпуски" />
+			<Item Name="LocalizableStrings.CreationReleases.Value" Value="Добавить выпуски" />
 		</Items>
 	</Group>
 </Resources>

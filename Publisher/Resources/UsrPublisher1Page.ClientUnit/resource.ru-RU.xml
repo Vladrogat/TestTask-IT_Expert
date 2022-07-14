@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Страница редактирования: &quot;Периодические издания&quot;" />
+			<Item Name="LocalizableStrings.MessageErrorOverLimit.Value" Value=" Производственные мощности ограничены и допускается не более %count% изданий" />
 			<Item Name="LocalizableStrings.NotesAndFilesTabCaption.Value" Value="Примечания" />
 			<Item Name="LocalizableStrings.UsrIssuesDetailCaptionOnPage.Value" Value="Выпуски" />
 			<Item Name="LocalizableStrings.UsrSchema4901c024Detailf89d75fdDetailCaptionOnPage.Value" Value="Выпуски" />
